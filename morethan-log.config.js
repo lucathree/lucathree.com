@@ -6,16 +6,16 @@ const CONFIG = {
     role: 'backend developer',
     bio: 'currently developing life as a developer',
     email: 'clee0627@gmail.com',
-    // linkedin: 'moret',
+    linkedin: '',
     github: 'lucathree',
-    // instagram: '',
+    instagram: '',
   },
-  // projects: [
-  //   {
-  //     name: 'Untilled',
-  //     href: 'https://untilled.web.app'
-  //   }
-  // ],
+  projects: [
+    // {
+    //   name: 'Untilled',
+    //   href: 'https://untilled.web.app'
+    // }
+  ],
   // blog setting (required)
   blog: {
     title: '루카쓰로그 v2.0',
