@@ -1,35 +1,35 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: 'morethanmin',
-    image: '/avatar.svg',  // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: 'frontend developer',
-    bio: 'I develop everything using node.',
-    email: 'morethanmin.dev@gmail.com',
-    linkedin: 'morethanmin',
-    github: 'morethanmin',
+    name: 'lucathree',
+    image: '/notion-avatar.svg',  // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: 'backend developer',
+    bio: 'currently developing life as a developer',
+    email: 'clee0627@gmail.com',
+    linkedin: '',
+    github: 'lucathree',
     instagram: '',
   },
   projects: [
     {
-      name: 'Untilled',
-      href: 'https://untilled.web.app'
+      name: '블로그 v1.0',
+      href: 'https://lucathree.github.io'
     }
   ],
   // blog setting (required)
   blog: {
-    title: 'morethan-log',
-    description: 'welcome to morethan-log!',
+    title: '루카쓰로그 v2.0',
+    description: '개발자의 삶을 개발 중입니다',
     theme: 'light' // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
-  link: 'https://morethan-log.vercel.app',
-  since: 2022, // If leave this empty, current year will be used.
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  link: 'https://lucathree.com',
+  since: 2021, // If leave this empty, current year will be used.
+  lang: 'ko-KR', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: 'https://og-image-korean.vercel.app', // The link to generate OG image, don't end with a slash
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
+    keywords: ['노션', '블로그', '개발자', '회고', '비전공자'],
   },
 
   // notion configuration (required)
@@ -53,7 +53,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: 'morethanmin/morethan-log',
+      repo: 'lucathree/lucathree.com',
       'issue-term': 'og:title',
       label: '💬 Utterances',
     }

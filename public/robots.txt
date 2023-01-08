@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://morethan-log.vercel.app
+Host: https://lucathree.com
 
 # Sitemaps
-Sitemap: https://morethan-log.vercel.app/sitemap.xml
+Sitemap: https://lucathree.com/sitemap.xml
