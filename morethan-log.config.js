@@ -11,10 +11,10 @@ const CONFIG = {
     instagram: '',
   },
   projects: [
-    // {
-    //   name: 'Untilled',
-    //   href: 'https://untilled.web.app'
-    // }
+    {
+      name: '블로그 v1.0',
+      href: 'https://lucathree.github.io'
+    }
   ],
   // blog setting (required)
   blog: {
