@@ -24,12 +24,12 @@ const CONFIG = {
   },
 
   // CONFIG configration (required)
-  link: 'https://lucathree.com',
+  link: 'https://morethan-log.vercel.app',
   since: 2021, // If leave this empty, current year will be used.
-  lang: 'ko-KR', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: 'https://og-image-korean.vercel.app', // The link to generate OG image, don't end with a slash
   seo: {
-    keywords: ['노션', '블로그', '개발자', '회고', '비전공자'],
+    keywords: ["Blog", "Website", "Notion"],
   },
 
   // notion configuration (required)
