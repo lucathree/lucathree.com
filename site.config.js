@@ -1,20 +1,20 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: 'lucathree',
-    image: '/notion-avatar.svg',  // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: 'backend developer',
-    bio: 'currently developing life as a developer',
-    email: 'clee0627@gmail.com',
-    linkedin: '',
-    github: 'lucathree',
-    instagram: '',
+    name: "lucathree",
+    image: "/notion-avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "backend developer",
+    bio: "currently developing life as a developer",
+    email: "clee0627@gmail.com",
+    linkedin: "",
+    github: "lucathree",
+    instagram: "",
   },
   projects: [
     {
-      name: '개발 블로그',
-      href: 'https://lucathree.com'
-    }
+      name: `개발 블로그`,
+      href: "https://lucathree.com",
+    },
   ],
   // blog setting (required)
   blog: {
@@ -34,21 +34,21 @@ const CONFIG = {
 
   // notion configuration (required)
   notionConfig: {
-    pageId: process.env.NOTION_SUB_PAGE_ID,
+    pageId: process.env.NOTION_PAGE_ID,
   },
 
   // plugin configuration (optional)
   googleAnalytics: {
     enable: false,
     config: {
-      measurementId: process.env.GOOGLE_MEASUREMENT_ID || ''
-    }
+      measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
+    },
   },
   googleSearchConsole: {
     enable: false,
     config: {
-      siteVerification: process.env.GOOGLE_SITE_VERIFICATION || ''
-    }
+      siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
+    },
   },
   utterances: {
     enable: true,
@@ -58,6 +58,14 @@ const CONFIG = {
       label: '💬 Utterances',
     }
   },
-  isProd: process.env.VERCEL_ENV === 'production' // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
+  cusdis: {
+    enable: false,
+    config: {
+      host: "https://cusdis.com",
+      appid: "", // Embed Code -> data-app-id value
+    },
+  },
+  isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
 }
-module.exports = CONFIG
+
+module.exports = { CONFIG }
